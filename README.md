@@ -24,3 +24,9 @@
     * /mvc/type 用于存放相关pojo
     * DispatcherServlet 所有请求接受类
     * RequestProcessorChain 以责任链的模式执行注册的请求处理器，委派给特定的Render实例对处理后的结果进行渲染。
+
+* src/main/resource 配置资源存放路径
+* src/main/webapp 页面相关存放路径
+  * /webapp/static 静态资源存放路径
+  * /webapp/templates jsp页面存放路径
+* src/test/java/org/simpleframework 测试案例存放路径
